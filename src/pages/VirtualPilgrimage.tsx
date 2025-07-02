@@ -1,7 +1,7 @@
 import { useState } from "react";
 import PanoramicViewer from "../components/PanoramicViewer.tsx";
 import TempleCard from "../components/TempleCard.tsx";
-import { templeData } from "../components/templeData.ts";
+import { templeData } from "../data/templeData.ts";
 
 
 export default function VirtualPilgrimage() {

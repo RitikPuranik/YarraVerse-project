@@ -1,5 +1,3 @@
-// src/components/Button.jsx
-
 export const Button = ({ children, className = "", ...props }) => {
   return (
     <button
