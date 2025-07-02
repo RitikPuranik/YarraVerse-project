@@ -42,7 +42,7 @@ const ReflectionSection = () => {
             value={reflection}
             onChange={(e) => setReflection(e.target.value)}
             placeholder="Share your thoughts, insights, or gratitude from today..."
-            className="w-full h-32 p-3 border border-purple-200 rounded-lg resize-none focus:outline-none focus:ring-2 focus:ring-purple-400 bg-white/70 text-black"
+            className="w-full h-32 p-3 border border-purple-200 rounded-lg resize-none focus:outline-none focus:ring-2 focus:ring-purple-400 bg-white/70 text-black"
             />
           <Button
             onClick={handleSaveReflection}

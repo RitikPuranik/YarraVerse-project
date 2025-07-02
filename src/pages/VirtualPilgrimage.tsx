@@ -12,8 +12,8 @@ export default function VirtualPilgrimage() {
   return selected ? (
     <PanoramicViewer temple={selected} onBack={() => setSelected(null)} />
   ) : (
-    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-amber-50 to-yellow-50 p-8">
-      <h1 className="text-4xl font-bold text-center mb-10">
+    <div className="min-h-screen bg-gradient-to-br from-orange-600 via-amber-500 to-yellow-50 p-8">
+      <h1 className="text-4xl font-bold text-center mb-10 text-orange-800">
         Choose Your Sacred Destination
       </h1>
       <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">

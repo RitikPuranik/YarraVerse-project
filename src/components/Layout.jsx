@@ -11,7 +11,7 @@ const Layout = () => {
     <div className="min-h-screen flex flex-col">
       {/* Conditionally render Navbar */}
       {!hideNavbar && (
-        <nav className="bg-yellow-600 text-white p-4 shadow">
+        <nav className="bg-orange-500 text-white p-4 shadow">
           <div className="container mx-auto flex justify-between items-center">
             <Link to="/" className="text-2xl font-bold text-white">
               YatraVerse

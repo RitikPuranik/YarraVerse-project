@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import Index from "./pages/Index";
 import VirtualPilgrimage from "./pages/VirtualPilgrimage";
-import EcoTracker from "./pages/EcoTracker";
+import EcoTracker from "./pages/EcoTracker.tsx";
 import SmartAssistant from "./pages/SmartAssistant";
 import ARQuest from "./pages/ARQuest";
 import SpiritualDashboard from "./pages/SpiritualDashboard";
